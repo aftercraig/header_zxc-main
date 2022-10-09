@@ -1,29 +1,35 @@
 body {
-    background: linear-gradient(to right,#000000E0 60%,#57B8FF 40%);
+    background: linear-gradient(to right,#000000E0 60%,#57B8FF 40%); font-family: 'Orbitron', sans-serif;
 }
 
 .container {
-    margin: 0px 114px;
+    margin: 27px 60px;
 }
 
-ul {
-    list-style: none;
-    margin: 38px;
-    padding: 452px;
+.header-menu {
+    padding-top: 27px;
+    display: flex;
+    align-items: center;
 }
 
-a {
-    font-size: 16px;
-    padding: 60;
+.nav-style {
     color: white;
     text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 60px;
 }
 
-a:hover {
-    color: #FAC422;
+.contact-us {
+    color: white;
     text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
 }
 
-li {
-    display: inline;
+.circle-svg {
+    position: absolute;
+    top: 27px;
+    right: 324.61;
 }
+
