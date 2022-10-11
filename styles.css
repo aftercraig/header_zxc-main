@@ -1,27 +1,32 @@
 body {
-    background: linear-gradient(to right,#000000E0 60%,#57B8FF 40%); font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(to right,#000000E0 58%,#57B8FF 42%); font-family: 'Orbitron', sans-serif;
 }
 
-.header-menu {
-    padding-top: 0px;
+.header-logo {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    padding-top: 27px;
+    padding-left: 60px;
 }
 
-.container {
-    margin: 27px 60px;
+.buttons {
+    display: flex;
+    justify-content: end;
+    margin-top: -60px;
+    margin-right: 60px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
 }
 
 .nav-style {
     color: white;
     text-decoration: none;
-    float:left;
-    display: block;
     font-size: 16px;
-    margin-right: 60px;
-    position: relative;
-    left: 222.5px;
-    top: 28px;
+    margin: 0 60px;
 }
 
 .contact-us {
@@ -29,21 +34,13 @@ body {
     text-decoration: none;
     font-weight: 400;
     font-size: 18px;
-    justify-content: center;
 }
 
 .cart {
-    margin-left: 120px;
-    margin-top: 7px;
+    margin-top: 23px;
+    margin-right: 20px;
 }
-
 a:hover {
     color:#FAC422;
     transition: color 0.3s linear;
-}
-
-.header-logo {
-    position: absolute;
-    top: 38.77px;
-    left: 61.26px;
 }
