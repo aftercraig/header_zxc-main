@@ -27,14 +27,12 @@ body {
     text-decoration: none;
     font-size: 16px;
     margin: 0 60px;
-}
-
-<!-- Переделать так, чтобы не загорались абсолютно все слова-ссылки -->
-a:hover {
-    color:#FAC422;
     transition: color 0.3s linear;
 }
-<!-- ////////////////////////////////////////// -->
+
+.nav-style:hover {
+    color: #FAC422;
+}
 
 .contact-us {
     color: white;
@@ -51,7 +49,7 @@ a:hover {
 .left-nav { 
     position: relative;
     margin-left: -1820px;
-    margin-top: -1480px;
+    margin-top: -1968px;
     transform: rotate(270deg);
 }
 
@@ -60,8 +58,12 @@ a:hover {
     color:#80858F;
     font-size: 11px;
     text-decoration: none;
+    transition: color 0.3s linear;
 }
 
+.left-buttons:hover {
+    color: #FFFFFF;
+}
 
 .fortnite {
     margin-left: 975px;
@@ -96,3 +98,40 @@ a:hover {
     margin-left: 100px;
     margin-top: 45px;
 }
+
+.yellowline {
+    position: absolute;
+    margin-left: 315px;
+    margin-top: -95px;
+}
+
+.bluebtn {
+    background-color: #57B8FF;
+    color: white;
+    text-decoration: none;
+    padding: 21px 34px;
+    transition: background-color 0.3s linear;
+}
+
+.bluebtn:hover {
+    background-color: #6857ff;
+}
+
+.exploremore {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 430px;
+    margin-left: 100px;
+}
+
+.team {
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+    transition: color 0.3s linear;
+}
+
+.team:hover {
+    color: #FAC422;
+} 
